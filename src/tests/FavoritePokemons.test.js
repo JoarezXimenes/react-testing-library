@@ -1,9 +1,9 @@
 import React from 'react';
-import App from '../App';
-import renderWithRouter from '../renderWithRouter';
 import { screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event'
+import userEvent from '@testing-library/user-event';
+import renderWithRouter from '../renderWithRouter';
 import { FavoritePokemons } from '../components';
+import App from '../App';
 
 describe('Testa favoritos', () => {
   it('teste o favorites sem nenhum pokemon favoritado', () => {
